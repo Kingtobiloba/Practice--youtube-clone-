@@ -1,0 +1,52 @@
+
+.v-author{
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+.v-stat{
+    color: gray;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.v-title{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.video-preview-grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr ;
+column-gap: 20px;
+row-gap: 30px;
+
+}
+
+
+.thumbnail{
+   width: 100%;
+}
+
+
+.profile-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    column-gap: 12px;
+
+
+}
+
+.profile-pic{
+    width: 50px;
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+
