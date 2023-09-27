@@ -6,10 +6,17 @@
     flex-direction: row;
     justify-content: space-between;
     
-    position: static;
+    position: fixed;
     top: 0;
     bottom: 0;
     right: 0;
+    left: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(207, 204, 204);
+    z-index: 100;
+
 }
 
 .left-section{
@@ -18,27 +25,6 @@
     display: flex;
     flex-shrink: 0;
 }
-
-.middle-section{
-    flex: 1;
-    align-content: center;
-    align-items: center;
-    margin-left: 70px;
-    margin-right: 30px;
-    max-width: 500px;
-    display: flex;
-}
-
-.Right-section{
-    width: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-right: 20px;
-    flex-shrink: 0;
-}
-
-
 
 .icons8-hamburger-menu{
     height: 20px;
@@ -53,6 +39,15 @@
 }
 
 
+.middle-section{
+    flex: 1;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 30px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+}
 
 .Search{
     height: 34px;
@@ -103,13 +98,46 @@
     margin-top: 4px;
 }
 
+.Right-section{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+
 
 .upload-video{
     height: 24px;
 }
 
+
 .notification-icon{
-    height: 24;
+    height: 30px;
+    
+}
+
+.notification-con{
+    position: relative;
+
+}
+
+.number-notification{
+    position: absolute;
+    top: -2px;
+    right: 0;
+    background-color: rgb(192, 5, 5);
+    color: white;
+    font-size: 11px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 6px;
+    padding-left: 6px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .channel-icon{
